@@ -1,0 +1,47 @@
+
+
+/* Default styles start */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Default styles end */
+
+/* Navber section start  */
+.navber{
+    background-color: #562EFF;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 285px;
+    padding-right: 285px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navber .logo{
+    display: flex;
+    align-items: center;
+}
+.left-logo img{
+    width: 41px;
+    height: 51px;
+    margin-right: 16px;
+}
+.right-logo img{
+    width: 52px;
+    height: 50px;
+    margin-right: 16px;
+}
+.right-logo ul {
+    display: flex;
+}
+.right-logo ul li{
+    list-style: none;
+    margin-right: 36px;
+}
+.right-logo ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* Navber section end  */
