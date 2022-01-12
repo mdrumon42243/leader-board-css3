@@ -1,4 +1,6 @@
-
+/* Google fonts start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Google fonts end */
 
 /* Default styles start */
 *{
@@ -18,6 +20,7 @@
     padding-right: 285px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 .navber .logo{
     display: flex;
@@ -45,3 +48,47 @@
     color: #ffffff;
 }
 /* Navber section end  */
+
+main{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+    display: flex;
+    justify-content: center;
+}
+.first-container{
+    border-radius: 5px;
+    margin-top: 36px;
+    background-color: #FFFFFF;
+    height: 679px;
+    width: 870px;
+}
+
+/* Players section start */
+.section-title{
+    color: #562EFF;
+    padding: 40px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+    margin-bottom: 36px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+}
+.horizontal-line{
+    width: 807px;
+    height: 2px;
+    background-color: #D1D1D1;
+    margin: 0 auto;
+}
+/* Players section end */
