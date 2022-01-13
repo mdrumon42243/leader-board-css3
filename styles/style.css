@@ -53,30 +53,34 @@ main{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
     display: flex;
+    height: 1220px;
+    flex-direction: column;
     justify-content: center;
-    height: 1555px;
+    align-items: center;
 }
 .first-container{
     border-radius: 5px;
-    margin-top: 36px;
     background-color: #FFFFFF;
     height: 710px;
     width: 870px;
 }
 
 /* Players section start */
+.players-container{
+    padding: 30px 30px 0px 30px;
+}
 .section-title{
     color: #562EFF;
-    padding: 40px;
+    margin-bottom: 40px;
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
 }
 .player{
     display: flex;
     align-items: center;
-    margin-left: 36px;
     margin-bottom: 36px;
 }
 .player img{
@@ -117,6 +121,7 @@ main{
     display: flex;
     align-items: center;
     margin-bottom: 26px;
+    cursor: pointer;
 }
 .blog-info p a{
     text-decoration: none;
@@ -124,4 +129,62 @@ main{
     font-size: 16px;
 }
 /* Blogs section end */
+
+/* Courses section start */
+.course-container{
+    background-color: #ffffff;
+    height: 362px;
+    width: 870px;
+    border-radius: 5px;
+    margin: 30px;
+
+}
+.course-title{
+    margin: 30px 0px  0px 30px;
+    color: #562EFF;
+
+}
+.courses{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.course{
+    box-shadow: 5px 5px 5px wheat;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.course-image img{
+    width: 224px;
+    height: 104px;
+}
+.course-author{
+    color: #562EFF;
+}
+.fa-star.icon-gold-color{
+    height: 12px;
+    width: 13px;
+    left: 341.9921875px;
+    top: 1131.0541381835938px;
+    border-radius: 0px;
+    color: #FFC014;
+}
+.fa-star.icon-gray-color{
+    height: 12px;
+    width: 13px;
+    left: 341.9921875px;
+    top: 1131.0541381835938px;
+    color:  #AEAEAE;
+    margin-right: 11px;
+}
+.course-time{
+    background-color: #FFE4E8;
+    border-radius: 15px;
+    width: 57px;
+    height: 21px;
+    color: #FF4A60;
+    padding: 5px;
+    margin-left: 10px;
+}
 
